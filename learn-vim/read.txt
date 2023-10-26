@@ -1,0 +1,50 @@
+i => insert
+o => enter and insert
+u => undo
+d,c => delete charector
+dd,cc => delete full the line
+D => delete after
+ctrl + r => v do
+v => visual mode
+y => after visual mode copy
+Y => copy full line
+p => pasts after can use 10p -> pasts 10 number
+P => pasts before
+r => replace
+w => jump right
+b => jump left
+
+ci" => change in " 
+di" => delete in "
+% => jump top | bottom
+t* => jump nest to before *
+f* => jump nest to *
+
+dt( => delete to before (
+gg => to the top
+G => to the botton
+
+>> => tap right
+<< => tap left
+
+= => format
+=G => format to bottom
+/url => search "url" n(next) N(previous)
+:%s/character/symbol/g => replace symbol with character
+	can using wrap :s/character/symbol/g  
+
+
+
+
+:set number => add number line
+:set relativenumber => focus number line current
+:set mouse=a => can mouse focus
+set tabstop=4
+set shiftwidth=4
+set autoindent
+colorscheme slate
+
+:Sex => open new windown 
+:Vex => open new windown right
+
+add setting vim in vi ~/.vimrc
