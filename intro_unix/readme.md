@@ -59,7 +59,13 @@
 | `-d`      | จะเป็นตัวกำหนด deli meter  |
 | `-f`      | จะเป็นตัวกำหนด เอา colume ไหน  |
 
-#### > -> เป็นการ create แบบ replace
+#### < -> เป็นการ create แบบ replace input
+
+```shell
+  cat > example.txt  # show data in file example.txt
+```
+
+#### > -> เป็นการ create แบบ replace output
 
 ```shell
   echo "Hello World" > example.txt
